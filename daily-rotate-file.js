@@ -81,6 +81,7 @@ var DailyRotateFile = function (options) {
             filename: path.join(this.dirname, this.filename),
             frequency: options.frequency ? options.frequency : 'custom',
             date_format: options.datePattern ? options.datePattern : 'YYYY-MM-DD',
+            append_date: options.appendDate,
             verbose: false,
             size: getMaxSize(options.maxSize),
             max_logs: options.maxFiles,

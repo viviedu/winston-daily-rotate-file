@@ -40,7 +40,7 @@
     "rimraf": "^3.0.2"
   },
   "dependencies": {
-    "file-stream-rotator": "^0.5.7",
+    "file-stream-rotator": "https://github.com/viviedu/file-stream-rotator#fa3a7e24a73bb2bbb36a8a960c4b0fcaafea4fe4",
     "object-hash": "^2.0.1",
     "triple-beam": "^1.3.0",
     "winston-transport": "^4.2.0"
